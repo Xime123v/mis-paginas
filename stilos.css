@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background:url("./images3/arbol.jpg") no-repeat;
+    background-position:-1100px 0;
+   background-position-x:center;
+   background-position-y:center;
+    background-size:cover;
+   background-attachment: fixed;
+    /* background-size: cover; */
+      
+  }
+  
+  main{
+    background:rgba(255,255,255,0.8);
+    border-radius: 25px;
+    padding:20px;
+    margin: 50px;
+  }
+  
+  section{
+    border: 1px solid rgb(11, 5, 0);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  h1{
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    background: rgb(65, 195, 58);
+    padding: 20px;
+    margin: 0 0 20px 0;
+  }
+  
+  #portada{
+    width: 200px;
+    height:200px;
+    float: left;
+  }
+  
+  .foto2{
+    float: right;
+    width:300px;
+    height:400px;
+   
+  }
+  
+  .negro{
+    color: rgb(67, 150, 2);
+  }
+  
+  .fotos{
+    background: rgb(84, 163, 45);
+    width: 600px;
+    height: 500px;
+    
+  }
+  
+  .vacio{
+    padding: 1px;
+    background: rgb(252, 3, 123);
+  }
+  
+  .img-float{
+    float: right;
+    
+  }
+  
+  .juego{
+    width: 100px;
+    height: 100px;
+  }
+
+  .txt-float{
+    float: left;
+    width: 500px;
+    padding: 100px 0 0 0;
+  }
+  
+  .clear{
+    clear:both;
+  }
+
+  .comida{
+      height: 400px;
+      width: 600px;
+  }
+
+  nav ul{
+    background-color:rgb(73, 173, 51);
+    width: 100%;
+    list-style-type: none;
+    text-align:center;
+  }
+
+  nav li{
+    display: inline-flex;
+  }
+
+  nav a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    width:150px;
+
+  }
+
+  nav li :hover{
+    background-color: rgb(45, 140, 22);
+  }
+
+  
